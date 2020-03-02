@@ -35,7 +35,6 @@ var getApartments = function (count) {
       author: {
         avatar: AVATAR.path + (i + 1) + AVATAR.ext
       },
-
       offer: {
         title: 'Заголовок',
         address: '600, 350',
@@ -49,7 +48,6 @@ var getApartments = function (count) {
         description: 'Описание',
         photos: getRandomArray(PHOTOS)
       },
-
       location: {
         x: window.getRandomValue(10, mapWidth) - PIN_SIZE.width / 2,
         y: window.getRandomValue(LOCATION_Y[0], LOCATION_Y[1]) - PIN_SIZE.height
